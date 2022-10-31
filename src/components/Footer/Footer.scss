@@ -1,0 +1,25 @@
+.todo-footer {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: rgb(249, 249, 249);
+    color: rgb(113, 113, 113);
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
+        0 10px 1px -4px rgba(0, 0, 0, 0.15), 0 20px 0 -10px #eee,
+        0 20px 1px -9px rgba(0, 0, 0, 0.15);
+
+    button {
+        margin: 0 5px;
+        padding: 6px;
+        border: 1px solid rgb(249, 249, 249);
+        background-color: rgb(249, 249, 249);
+        color: rgb(113, 113, 113);
+        &:focus {
+            border: 1px solid rgba(255, 105, 105, 0.415);
+            border-radius: 5px;
+        }
+    }
+}
